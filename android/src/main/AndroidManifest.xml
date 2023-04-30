@@ -16,7 +16,7 @@
                 </intent-filter>
             </activity>
 
-            <receiver android:name="com.supersami.RebootActionReceiver" android:enabled="true" android:permission="android.permission.RECEIVE_BOOT_COMPLETED" android:exported="true">
+            <receiver android:name="com.supersami.foregroundservice.RebootActionReceiver" android:enabled="true" android:permission="android.permission.RECEIVE_BOOT_COMPLETED" android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.BOOT_COMPLETED" />
                     <category android:name="android.intent.category.DEFAULT" />
